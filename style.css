@@ -29,7 +29,7 @@ section {
 }
 
 .nav-bar {
-    width: 75rem;
+    width: 85rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,7 +61,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75rem;
+    width: 85rem;
     padding: 2rem;
     height: auto;
     color: white;
@@ -111,6 +111,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 3rem;
 }
 
 .about-title {
@@ -122,21 +123,42 @@ section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 65rem;
-    column-gap: 25px;
+    width: 75rem;
+    column-gap: 4rem;
 }
 
 .about-presentation .about-imageholder {
     width: 12rem;
     height: 12rem;
     border: 5px solid #3882F6;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 5px;
 }
 
 .about-presentation .about-image-description {
     width: 12rem;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: #686868;
+}
+
+.reviews {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews .reviews-quote {
+    padding-top: 5rem;
+    font-size: 36px;
+    font-weight: 300;
+    width: 75rem;
+}
+
+.reviews .reviews-author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 32px;
+    padding-bottom: 5rem;
 }
