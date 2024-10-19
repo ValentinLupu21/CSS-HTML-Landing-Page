@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto', 'Times New Roman', sans-serif;
 }
 
 section {
@@ -22,6 +25,7 @@ section {
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
+    padding-bottom: 3rem;
 }
 
 .nav-bar {
@@ -57,11 +61,11 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid yellow;
     width: 75rem;
     padding: 2rem;
     height: auto;
     color: white;
+    margin-bottom: 2rem;
 }
 
 .content .right-side {
@@ -85,7 +89,7 @@ section {
 }
 
 .content .left-side .title {
-    font-size: 2.5rem;
+    font-size: 48px;
 }
 
 .content .left-side .description {
@@ -98,4 +102,41 @@ section {
     width: 10rem;
     height: 2rem;
     border-radius: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-title {
+    font-size: 36px;
+    padding: 3rem 0;
+}
+
+.about-presentation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 65rem;
+    column-gap: 25px;
+}
+
+.about-presentation .about-imageholder {
+    width: 12rem;
+    height: 12rem;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.about-presentation .about-image-description {
+    width: 12rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #686868;
 }
